@@ -41,4 +41,4 @@ Em seguida rode o seguinte comando para iniciar a aplicação no ambiente de des
 
 ---
 
-Made with ♥ by Johnn Castro :wave: [Entre em contato!](https://www.linkedin.com/in/jonathan-castro-alves/)
+Feito com ♥ por Johnn Castro :wave: [Entre em contato!](https://www.linkedin.com/in/jonathan-castro-alves/)
