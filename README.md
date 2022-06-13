@@ -19,6 +19,10 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - [styled-components](https://www.styled-components.com/)
 - [Firebase](https://firebase.google.com/)
 
+## :computer: Visitando
+
+Acesse o projeto clicando [aqui](https://letmeask-ten-steel.vercel.app/). :+1:
+
 ## 👷 Instalação
 
 **Você precisa instalar o [Node.js](https://nodejs.org/en/) e clonar o repositório com o seguinte comando no prompt:**
