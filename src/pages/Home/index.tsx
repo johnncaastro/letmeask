@@ -1,5 +1,5 @@
-import React, { FormEvent, useContext, useState } from 'react';
-import { AuthContext } from '../../App';
+import { FormEvent, useState } from 'react';
+import { useAuth } from '../../hooks/useAuth';
 import { useNavigate } from 'react-router-dom';
 import { ButtonComponent } from '../../components/Button/styles';
 
@@ -11,7 +11,7 @@ import enterRoomImg from '../../assets/enter-room.svg';
 import { Container } from "./styles";
 
 export function Home() {
-  const { user, signInWithGoogle } = useContext(AuthContext);
+  const { user, signInWithGoogle } = useAuth();
 
   const [roomCode, setRoomCode] = useState('');
 
@@ -25,8 +25,12 @@ export function Home() {
     navigate('/rooms/new');
   }
 
-  function handleJoinRoom(event: FormEvent) {
+  async function handleJoinRoom(event: FormEvent) {
     event.preventDefault();
+
+    if(!user) {
+      await signInWithGoogle();
+    }
 
     if(roomCode.trim() === '') {
       alert('Informe um nome para a sala!')

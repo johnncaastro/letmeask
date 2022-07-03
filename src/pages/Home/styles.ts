@@ -24,12 +24,14 @@ export const Container = styled.div`
       margin-top: 0.5rem;
 
       color: var(--white);
+      font-size: 1.6rem;
     }
 
     p {
       margin-top: 1rem;
 
       color: var(--white);
+      font-size: 1rem;
     }
   }
 
@@ -47,6 +49,10 @@ export const Container = styled.div`
     text-align: center;
     width: 100%;
     max-width: 320px;
+
+    > button {
+      width: 100%;
+    }
 
     form {
       width: 100%;
@@ -112,6 +118,12 @@ export const Container = styled.div`
       height: 1px;
       margin-left: 1rem;
       color: var(--gray-light);
+    }
+  }
+
+  @media (max-width: 920px) {
+    aside {
+      display: none;
     }
   }
 `

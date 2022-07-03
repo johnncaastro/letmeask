@@ -1,6 +1,6 @@
-import React, { FormEvent, useContext, useState } from 'react';
+import { FormEvent, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { AuthContext } from '../../App';
+import { useAuth } from '../../hooks/useAuth';
 import { ButtonComponent } from '../../components/Button/styles';
 
 import illustrationImg from '../../assets/illustration.svg';
@@ -9,7 +9,7 @@ import logoImg from '../../assets/logo.svg';
 import { Container } from "./styles";
 
 export function CreateRoom() {
-  const { user } = useContext(AuthContext);
+  const { user } = useAuth();
 
   const [newRoom, setNewRoom] = useState('');
 

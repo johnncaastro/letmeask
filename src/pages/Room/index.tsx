@@ -1,6 +1,5 @@
-import React, { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { AuthContext } from '../../App';
+import { useAuth } from '../../hooks/useAuth';
 import { Button } from '../../components/Button';
 
 import congratulationsImg from '../../assets/congratulations.svg';
@@ -9,7 +8,7 @@ import leaveRoomImg from '../../assets/enter-room.svg';
 import { Container } from './styles';
 
 export function Room() {
-  const { user } = useContext(AuthContext);
+  const { user } = useAuth();
 
   const navigate = useNavigate();
 
