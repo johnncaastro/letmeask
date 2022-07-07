@@ -1,14 +1,12 @@
-<h1 align="center">
-  <img alt="logo" src="https://i.ibb.co/6ZQxBym/logo-letmeask.png" />
-  <br>
-  Aplicação para criação de salas com login autenticado pelo Google
-</h1>
+<p align="center">
+  <img alt="logo" src="https://github.com/johnncaastro/letmeask/blob/main/.github/logo%20letmeask.png" />
+</p>
 
-<h4 align="center">
-  Projeto desenvolvido a partir do evento Next Level Week(NLW) promovido pela Rocketseat na direção de Diego Fernandes
-</h4>
+## :page_with_curl: Sobre
 
-![dtmoney](https://i.ibb.co/XykD0Yf/Sem-t-tulo.png)
+Aplicação para criação de salas com login autenticado pelo Google
+
+![dtmoney](https://github.com/johnncaastro/letmeask/blob/main/.github/letmeask%20landing.png)
 
 ## 🚀 Tecnologias
 
@@ -19,7 +17,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - [styled-components](https://www.styled-components.com/)
 - [Firebase](https://firebase.google.com/)
 
-## :computer: Visitando
+## :computer: Projeto
 
 Acesse o projeto clicando [aqui](https://letmeask-ten-steel.vercel.app/). :+1:
 
@@ -40,5 +38,9 @@ Em seguida rode o seguinte comando para iniciar a aplicação no ambiente de des
 ```npm run dev```
 
 ---
+
+<h4 align="center">
+  Projeto desenvolvido a partir do evento Next Level Week(NLW) promovido pela Rocketseat na direção de Diego Fernandes
+</h4>
 
 Feito com ♥ por Johnn Castro :wave: [Entre em contato!](https://www.linkedin.com/in/jonathan-castro-alves/)
