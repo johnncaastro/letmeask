@@ -37,6 +37,10 @@ Em seguida insira o comando abaixo para iniciar a aplicação:
 
 ```npm run dev```
 
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/johnncaastro/letmeask/blob/main/LICENSE) para mais detalhes.
+
 ---
 
 <p align="center">
